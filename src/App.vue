@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Indecision />
+  <!-- <Counter :start="10" /> -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Indecision from './components/Indecision.vue';
+// import Counter from './components/Counter.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Indecision,
+    // Counter,
   }
 }
 </script>
